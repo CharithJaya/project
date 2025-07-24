@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-web-app
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install && npm build
+    startCommand: npm start
+    rootDir: .
