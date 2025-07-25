@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "added 387 packages",
+
     "vercel-build": "next build"
   },
   "dependencies": {
