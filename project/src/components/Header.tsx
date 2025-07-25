@@ -36,7 +36,12 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center h-16">
              {/* Logo */}
           <div className="flex items-center">
-           
+            <Image
+  src="/logo.png" 
+  alt="Logo"
+  width={64}
+  height={64}
+/>
             <span className="ml-3 text-2xl font-bold text-green-600">CricStore</span>
           </div>
 

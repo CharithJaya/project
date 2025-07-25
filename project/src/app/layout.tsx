@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'CricStore - Premium Cricket Equipment',
   description: 'Your one-stop shop for professional cricket equipment. Bats, balls, pads, gloves, and more.',
+ icons: {
+    icon: '/logo.png', // ✅ Path to your logo
+  },
 };
 
 export default function RootLayout({

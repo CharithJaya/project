@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-      "postinstall": "added 387 packages",
-       "vercel-build": "next build"
+    "postinstall": "added 387 packages",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "lucide-react": "^0.525.0",
     "next": "^14.0.4",
+    "next-auth": "^4.24.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
